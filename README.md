@@ -30,7 +30,17 @@ The system consists of two agents:
 
 Run the main script:
 
+
 ```bash
+# Create venv
+python -m venv .venv
+.venv\Scripts\activate
+
+---bash
+# Install dependencies
+pip install -r requirements.txt
+
+
 python main.py --topic "Space Exploration"
 ```
 
