@@ -35,11 +35,7 @@ The system consists of two agents:
 
 Run the main script:
 
----bash
-# Install dependencies
-pip install -r requirements.txt
-
-
+```bash
 python main.py --topic "Space Exploration"
 ```
 
