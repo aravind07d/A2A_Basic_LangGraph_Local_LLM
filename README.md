@@ -20,6 +20,9 @@ The system consists of two agents:
 
 1.  Install dependencies:
     ```bash
+    # Create venv
+python -m venv .venv
+.venv\Scripts\activate
     pip install -r requirements.txt
     ```
 
@@ -29,12 +32,6 @@ The system consists of two agents:
 ## Usage
 
 Run the main script:
-
-
-```bash
-# Create venv
-python -m venv .venv
-.venv\Scripts\activate
 
 ---bash
 # Install dependencies
